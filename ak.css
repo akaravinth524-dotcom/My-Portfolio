@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background-color:#ffffff;
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px 0 ;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: -2%;
+    inline-size: 30%;
+}
+.navbar a:hover{
+    color: red;
+}
+ul{
+    margin-top: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategrey;
+    margin-right: auto;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color: rgb(0, 1, 63);
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.image{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 120%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 0;
+}
+section{
+    padding:60px 50px;
+    
+}
+
+    .about, .projects, .contact, .skills, .education{
+      background:rgba(234, 249, 252, 0.89);
+      margin:20px;
+      border-radius:10px;
+      padding:40px;
+      box-shadow:0 4px 10px rgb(0, 0, 0);
+    }
+
+    h2{
+      margin-bottom:20px;
+      color:#002442;
+    }
+
+    .project-card{
+      background:#ffffff;
+      padding:20px;
+      margin-top:15px;
+      border-left:5px solid #003057;
+    }
